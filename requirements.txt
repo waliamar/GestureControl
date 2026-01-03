@@ -1,0 +1,21 @@
+# Hand Gesture Control System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (all platforms)
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+pyautogui>=0.9.54
+
+# Platform-specific notes:
+# 
+# LINUX:
+#   - Also install: sudo apt install xdotool
+#   - No additional Python packages needed
+#
+# macOS:
+#   - No additional dependencies (uses built-in AppleScript)
+#
+# WINDOWS:
+#   - Install: pip install keyboard
+#   - Run script as administrator for media key support
